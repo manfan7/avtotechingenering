@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>service centr</title>
+    <link rel="stylesheet" href="./libs/aos.css">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <script src="libs/gsap.min.js" defer></script>
+    <script src="libs/ScrollTrigger.min.js" defer></script>
+    <script src="libs/ScrollSmoother.min.js" defer></script> -->
+    <script src="./libs/aos.js" defer></script>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=180dd9a7-7075-43bd-9f0d-ba13c0186b79&lang=ru_RU"
+      defer
+    ></script>
+
+    <script
+      src="https://yandex.st/jquery/2.2.3/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="js/ymaps.js" defer></script>
+    <script src="js/tabs.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-1">
+        <img src="./img/mainphoto.jpg" alt="" />
+        <div class="header-info">
+          <div class="header__logo"></div>
+          <div class="header__text">
+            <div class="header__text-main">
+              <h1 class="header__text-main-class">
+                Техническое обслуживание и ремонт грузовых автомобилей
+              </h1>
+              <h3 class="header__text-main-second">
+                г. Минск, Партизанский пр-кт, 178
+              </h3>
+              <h3 class="header__text-main-second">
+                ПН-ВС 8:00 - 20:00, без выходных
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="header__text-footer">
+          <h3 class="header__text-main-second header-footer-text">
+            ООО “Автотехинжиниринг плюс”
+          </h3>
+        </div>
+      </section>
+      <section class="section-2">
+        <div class="section-wrapper">
+          <div class="section-2__leftside">
+            <h4 class="section-2-text">Преимущества официального сервиса</h4>
+          </div>
+          <div class="section-2__rightside"></div>
+        </div>
+      </section>
+      <section class="section-3 scroll-item">
+        <div class="section-wrapper">
+          <div class="section-3__item">
+            <h3 class="section__item-header">Профессиональное обслуживание</h3>
+            <h4 class="section__item-descr">
+              Вы получаете профессиональную диагностику с поддержкой
+              завода-изготовителя. Наши специалисты знают грузовые автомобили
+              лучше, чем любая СТО, ведь наш опыт работы более 20 лет
+            </h4>
+          </div>
+          <div class="section-3__item">
+            <h3 class="section__item-header">Удобное месторасположение</h3>
+            <h4 class="section__item-descr">
+              Мы создали комфортные условия обслуживания. Наш сервис
+              располагается в городе недалеко от МКАД в удобном для подъезда
+              коммерческого автотранспорта месте
+            </h4>
+          </div>
+          <div class="section-3__item">
+            <h3 class="section__item-header">Гарантия</h3>
+            <h4 class="section__item-descr">
+              Мы несем полную отвественность за выполненные работы нашими
+              специалистами и ручаемся за качество запасных частей
+            </h4>
+          </div>
+        </div>
+      </section>
+      <section class="section-4">
+        <div class="section-wrapper">
+          <div class="section-4__item">
+            <h4
+              class="section-4__selector selectRazd"
+              data-tab="tab-1"
+              id="item1"
+            >
+              Авторизованный центр МАЗ
+            </h4>
+          </div>
+          <div class="section-4__item">
+            <h4
+              class="section-4__selector selectRazd"
+              data-tab="tab-2"
+              id="item2"
+            >
+              Сервисный центр грузовых автомобилей
+            </h4>
+          </div>
+          <div class="section-4__item">
+            <h4
+              class="section-4__selector selectRazd"
+              data-tab="tab-3"
+              id="item3"
+            >
+              Дизель центр
+            </h4>
+          </div>
+          <div class="section-4__item">
+            <h4
+              class="section-4__selector selectRazd"
+              data-tab="tab-4"
+              id="item4"
+            >
+              Кузовной сервис
+            </h4>
+          </div>
+          <div class="section-4__item">
+            <h4 class="section-4__selector cenalink" data-goto="cenatablink">
+              Цены
+            </h4>
+          </div>
+        </div>
+      </section>
+      <div class="service-centr item1 block-item content" id="tab-1">
+        <div class="service-centr-img scroll-itemimages">
+          <div class="service-centr-logo ">
+            <img src="./img/maz.png" alt="maz logo" />
+          </div>
+         <picture class="back">
+          <source srcset="./img/backgroundresize/avromaz.jpg" media="(max-width: 1490px)">
+          <source srcset="./img/maz.jpg" media="(min-width: 1491px)">
+           <img class="back" src="./img/maz.jpg" alt="">
+         </picture>
+
+          <div class="image-container">
+           
+          </div>
+          <div class="service-centr-text scroll-item">
+            <h2 class="text-service">
+              Авторизованный сервисный центр обеспечивает гарантийное и
+              сервисное обслуживание всей линейки выпускаемой автомобильной
+              продукции МАЗ
+            </h2>
+          </div>
+        </div>
+        <div class="licky">
+          <div class="service-centr-descr">
+            <div class="section-wrapper">
+              <h4 class="service-centr-descr-text">
+                Специалисты нашего Сервисного центра оказывают техническую и
+                консультационную поддержку потребителей и клиентов на всех
+                этапах эксплуатации автомобилей МАЗ
+              </h4>
+            </div>
+          </div>
+          <div class="service-centr-images">
+            <div class="section-wrapper">
+              <div class="service-centr-images-item image1 scroll-item">
+                <h2 class="images-descr">Техническое обслуживание</h2>
+              </div>
+              <div class="service-centr-images-item image2 scroll-item">
+                <h2 class="images-descr">Ремонт</h2>
+              </div>
+              <div class="service-centr-images-item image3 scroll-item">
+                <h2 class="images-descr">Диагностика</h2>
+              </div>
+              <div class="service-centr-images-item image4 scroll-item">
+                <h2 class="images-descr">Гарантия</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        <div class="service-centr-plus">
+          <div class="section-wrapper">
+            <h2 class="service-centr-plus-text">
+              На основании договорных отношений мы авторизованы по сервису
+              силовых агрегатов:
+            </h2>
+          </div>
+        </div>
+        <div class="service-centr-clients">
+          <div class="section-wrapper">
+            <div class="clients-item">
+              <h2 class="clients-item-title boldtitle">
+                ПАО “Автодизель” ЯМЗ
+              </h2>
+              <h4 class="clients-item-descr">
+                Сервисный центр по обслуживанию и ремонту продукции ПАО
+                “Автодизель” ЯМЗ в гарантийный и послегарантийный период
+                эксплуатации
+              </h4>
+            </div>
+            <div class="clients-item">
+              <h2 class="clients-item-title colorcenter">
+                Минский моторный завод
+              </h2>
+              <h4 class="clients-item-descr">
+                Предприятие фирменного сервиса двигателей ОАО “Управляющая
+                компания холдинга” Минский моторный завод в гарантийный и
+                послегарантийный период эксплуатации
+              </h4>
+            </div>
+            <div class="clients-item">
+              <h2 class="clients-item-title canadafont">Weichai Power</h2>
+              <h4 class="clients-item-descr">
+                Авторизованный сервисный центр по техническому обслуживанию и
+                ремонту двигателей
+                <span class="bolderWeichai">Weichai Power</span> в составе
+                автотехники МАЗ
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="service-centr-svidetelstvo">
+          <div class="section-wrapper">
+            <div class="svid-item">
+              <img src="./img/svidetelstvo.jpg" alt="svideteltvo" />
+            </div>
+            <div class="svid-item">
+              <img src="./img/svidetelstvo2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="service-centr-cena">
+          <div class="section-wrapper">
+            <div class="cena-item header-cena scroll-item">
+              <h2 class="cena-item-main cenatablink">Цены</h2>
+              <h3 class="cena-item-descr">
+                Отпускная цена с налогом на добавленную стоимость по ставке
+                20%, руб
+              </h3>
+            </div>
+            <div class="cena-item scroll-item">
+              <h3 class="cena-item-content">
+                Техническое обслуживание и ремонт автомобилей импортного
+                производства
+              </h3>
+              <h3 class="cena-item-kolvo">нормо-час</h3>
+              <h3 class="cena-item-summ">59.40</h3>
+            </div>
+            <div class="cena-item scroll-item">
+              <h3 class="cena-item-content">
+                Техническое обслуживание и ремонт грузовой и пассажирской
+                техники МАЗ
+              </h3>
+              <h3 class="cena-item-kolvo">нормо-час</h3>
+              <h3 class="cena-item-summ">54.00</h3>
+            </div>
+            <div class="cena-item scroll-item">
+              <h3 class="cena-item-content">
+                Техническое обслуживание и текущий ремонт прицепов и
+                полуприцепов
+              </h3>
+              <h3 class="cena-item-kolvo">нормо-час</h3>
+              <h3 class="cena-item-summ">54.00</h3>
+            </div>
+            <div class="cena-item scroll-item">
+              <h3 class="cena-item-content">
+                Техническое обслуживание и ремонт топливной аппаратуры
+              </h3>
+              <h3 class="cena-item-kolvo">нормо-час</h3>
+              <h3 class="cena-item-summ">54.00</h3>
+            </div>
+            <div class="cena-item scroll-item">
+              <h3 class="cena-item-content">
+                Стоимость 1 км при выезде автомобиля для оказания технической
+                помощи
+              </h3>
+              <h3 class="cena-item-kolvo">1 км</h3>
+              <h3 class="cena-item-summ">0.70</h3>
+            </div>
+            <div class="cena-item scroll-item">
+              <h3 class="cena-item-content content-before">
+                если иное не предусмотрено договорами с заказчиками
+              </h3>
+            </div>
+          </div>
+        </div>
+        <section class="section-5">
+          <div class="section-wrapper">
+            <div class="section-5__item">
+              <div class="section-5-image scroll-itemimages">
+                <img src="./img/Group74.jpg" alt="logo 2" />
+              </div>
+            </div>
+            <div class="section-5__item">
+              <div class="section-5-descr scroll-itemdescr">
+                <h4 class="clients-item-descr">
+                  <span class="bolderWeichai">На складе</span> нашего
+                  сервисного центра имеются
+                  <span class="bolderWeichai"
+                    >в наличии сертифицированные запасные части,</span
+                  >
+                  моторные и трансмиссионные масла, а также прочие смазочные
+                  материалы и технические жидкости для оперативного проведения
+                  технического обслуживания и ремонта. В случае отсутствия на
+                  складе, возможна оперативная доставка запасной части в
+                  течении
+                  <span class="bolderWeichai fontsimple">2-3</span> часов с
+                  установкой (заменой) в день проведения ремонта
+                </h4>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="section-container">
+        
+        <div class="service item2 block-item content" id="tab-2">
+          <div class="service-centr-img imageservice scroll-itemimages">
+            <img class="back" src="./img/krasivo.jpg" alt="">
+            <div class="image-container"></div>
+            <div class="service-centr-text1 scroll-item">
+              <h2 class="text-service">
+                Наш Сервисный центр включает в себя подразделение технического
+                обслуживания и ремонта большегрузных и коммерческих автомобилей
+                зарубежного производства
+              </h2>
+            </div>
+          </div>
+
+          <div class="service-centr-descr">
+            <div class="section-wrapper">
+              <h4 class="service-centr-descr-text service-why">
+                Почему стоит выбрать нас?
+              </h4>
+            </div>
+          </div>
+          <div class="service-content">
+            <div class="section-wrapper">
+              <div class="service-item-row special-wrapper">
+                <div class="service-item-column firstof borderbot">
+                  <div class="anima-wrapper an scroll-itemdescr">
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr">
+                        Точная диагностика происходит на лицензионном
+                        диагностическом оборудовании и оригинальной сервисной
+                        программе
+                      </h4>
+                    </div>
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr">
+                        Большой ассортимент необходимых автозапчастей позволяет
+                        форсировать процесс работы, не прибегая к простоям из-за
+                        ожидания заказа деталей
+                      </h4>
+                    </div>
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr">
+                        Наше рабочее пространство даёт возможность сразу
+                        приступить к работе в день приёма
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-item-column">
+                  <div class="service-column-image scroll-itemimages">
+                    <img src="./img/Group 44.jpg" alt="rightimage" />
+                  </div>
+                </div>
+              </div>
+              <div class="service-item-row">
+                <h4 class="service-centr-descr-text service-why">
+                  Ремонт прицепов и полуприцепов
+                </h4>
+              </div>
+              <div class="service-item-row special-wrapper">
+                <div class="service-item-column">
+                  <div class="service-column-image scroll-itemimages">
+                    <img src="./img/Group 45.jpg" alt="leftimage" />
+                  </div>
+                </div>
+                <div class="service-item-column lastof">
+                  <div class="animaright scroll-itemdescr">
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr">
+                        Мы предлагаем квалифицированное техническое обслуживание
+                        и ремонт прицепной автомобильной техники любой
+                        размеренности и назначения, отечественного и импортного
+                        производства
+                      </h4>
+                    </div>
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr">
+                        Мы авторизированы как Сервисный центр по прицепам и
+                        полуприцепам белорусского производства
+                        <span class="bolderWeichai"
+                          >МАЗ, "Купава", "Волат", БелАЗ,</span
+                        >
+                        Большой опыт сервисного обслуживания и ремонта
+                        полуприцепов
+                        <span class="bolderWeichai"
+                          >Kogel, Schmitz, Wielton, Krone,</span
+                        >
+                        тормозных механизмов
+                        <span class="bolderWeichai">WABCO</span> и
+                        <span class="bolderWeiachai">Knorr Bremse,</span> осей
+                        <span class="bolderWeichai">SAF</span> и
+                        <span class="bolderWeichai">BPW</span>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-centr-cena">
+            <div class="section-wrapper">
+              <div class="cena-item header-cena scroll-item">
+                <h2 class="cena-item-main cenatablink">Цены</h2>
+                <h3 class="cena-item-descr">
+                  Отпускная цена с налогом на добавленную стоимость по ставке
+                  20%, руб
+                </h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Техническое обслуживание и ремонт автомобилей импортного
+                  производства
+                </h3>
+                <h3 class="cena-item-kolvo">нормо-час</h3>
+                <h3 class="cena-item-summ">59.40</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Техническое обслуживание и ремонт грузовой и пассажирской
+                  техники МАЗ
+                </h3>
+                <h3 class="cena-item-kolvo">нормо-час</h3>
+                <h3 class="cena-item-summ">54.00</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Техническое обслуживание и текущий ремонт прицепов и
+                  полуприцепов
+                </h3>
+                <h3 class="cena-item-kolvo">нормо-час</h3>
+                <h3 class="cena-item-summ">54.00</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Техническое обслуживание и ремонт топливной аппаратуры
+                </h3>
+                <h3 class="cena-item-kolvo">нормо-час</h3>
+                <h3 class="cena-item-summ">54.00</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Стоимость 1 км при выезде автомобиля для оказания технической
+                  помощи
+                </h3>
+                <h3 class="cena-item-kolvo">1 км</h3>
+                <h3 class="cena-item-summ">0.70</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content content-before">
+                  если иное не предусмотрено договорами с заказчиками
+                </h3>
+              </div>
+            </div>
+          </div>
+          <section class="section-5">
+            <div class="section-wrapper">
+              <div class="section-5__item">
+                <div class="section-5-image scroll-itemimages">
+                  <img src="./img/Group74.jpg" alt="logo 2" />
+                </div>
+              </div>
+              <div class="section-5__item">
+                <div class="section-5-descr scroll-itemdescr">
+                  <h4 class="clients-item-descr">
+                    <span class="bolderWeichai">На складе</span> нашего
+                    сервисного центра имеются
+                    <span class="bolderWeichai"
+                      >в наличии сертифицированные запасные части,</span
+                    >
+                    моторные и трансмиссионные масла, а также прочие смазочные
+                    материалы и технические жидкости для оперативного проведения
+                    технического обслуживания и ремонта. В случае отсутствия на
+                    складе, возможна оперативная доставка запасной части в
+                    течении
+                    <span class="bolderWeichai fontsimple">2-3</span> часов с
+                    установкой (заменой) в день проведения ремонта
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="dizel-centr item3 block-item content" id="tab-3">
+          <div class="service-centr-img imagedizel scroll-itemimages">
+            <img class="back" src="./img/bosch.jpg" alt="">
+            <div class="image-container"></div>
+            <div class="service-centr-text1 scroll-item">
+              <h2 class="text-service">Сервис систем дизельного впрыска</h2>
+            </div>
+          </div>
+          <div class="dizel-content">
+            <div class="background-wrapper">
+              <div class="section-wrapper">
+                <div class="dizel-content-item">
+                  <div class="dizel-column-image scroll-itemimages">
+                    <img src="./img/Group 46.jpg" alt="leftimage" />
+                  </div>
+                  <div class="dizel-column-descr">
+                    <div class="animaright scroll-itemdescr">
+                      <h4 class="dizel-column-descr-descr">Дизель центр - это сервис систем дизельного впрыска, диагностика и
+                        обслуживание дизельных легковых и грузовых автомобилей.</h4>
+                      <h4 class="dizel-column-descr-descr">
+                        Мы используем уникальное, сертифицированное
+                        производителем оборудованиие и инновационные технологии
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="dizel-content-item scroll-item special-dizel-column">
+                  <div class="section-3__item scroll-item dizel-special">
+                    <h3 class="section__item-header dizelh3">
+                      Диагностика систем управления дизельных двигателей
+                    </h3>
+                    <h4 class="section__item-descr dizelh4">
+                      с использованием KTS, снятие/установка, проверка и замена
+                      компонентов систем дизельного впрыска: топливные насосы
+                      высокого давления, распылители, насос-форсунки,
+                      индивидуальные насосы, инжекторы и насосы высокого
+                      давления системы “Common Rail”
+                    </h4>
+                  </div>
+                  <div class="section-3__item scroll-item dizel-special">
+                    <h3 class="section__item-header dizelh3">
+                      Проверка и ремонт компонентов систем дизельного впрыска
+                    </h3>
+                    <h4 class="section__item-descr dizelh4">
+                      топливные насосы высокого давления, распылители,
+                      насос-форсунки, индивидуальные насосы, инжекторы и насосы
+                      высокого давления системы Common Rail на испытательном
+                      оборудовании с ипользованием специального инструмента
+                    </h4>
+                  </div>
+                  <div class="section-3__item scroll-item dizel-special">
+                    <h3 class="section__item-header dizelh3">
+                      Диагностика и обслуживание дизельных двигателей
+                    </h3>
+                    <h4 class="section__item-descr dizelh4">
+                      оказываются с использованием современных технологий,
+                      программного обеспечения и специальных знаний наших
+                      сотрудников, полученных и подтвержденных в учебном центре
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-centr-cena">
+            <div class="background-wrapper">
+              <div class="section-wrapper dizel-cena-wrapper">
+                <div class="cena-item header-cena scroll-item">
+                  <h2 class="cena-item-main cenatablink">Цены</h2>
+                  <h3 class="cena-item-descr">
+                    Отпускная цена с налогом на добавленную стоимость по ставке
+                    20%, руб
+                  </h3>
+                </div>
+                <div class="cena-item scroll-item">
+                  <h3 class="cena-item-content">
+                    Техническое обслуживание и ремонт автомобилей, агрегатов и
+                    специальной техники
+                  </h3>
+                  <h3 class="cena-item-kolvo">нормо-час</h3>
+                  <h3 class="cena-item-summ">60.00</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section class="section-5">
+            <div class="section-wrapper">
+              <div class="section-5__item">
+                <div class="section-5-image scroll-itemimages">
+                  <img src="./img/Group74.jpg" alt="logo 2" />
+                </div>
+              </div>
+              <div class="section-5__item">
+                <div class="section-5-descr scroll-itemdescr">
+                  <h4 class="clients-item-descr">
+                    <span class="bolderWeichai">На складе</span> нашего
+                    сервисного центра имеются
+                    <span class="bolderWeichai"
+                      >в наличии сертифицированные запасные части,</span
+                    >
+                    моторные и трансмиссионные масла, а также прочие смазочные
+                    материалы и технические жидкости для оперативного проведения
+                    технического обслуживания и ремонта. В случае отсутствия на
+                    складе, возможна оперативная доставка запасной части в
+                    течении
+                    <span class="bolderWeichai fontsimple">2-3</span> часов с
+                    установкой (заменой) в день проведения ремонта
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="service kuzov-centr item4 block-item content" id="tab-4">
+          <div class="service-centr-img imagekuzov scroll-itemimages">
+
+            <img class="back" src="./img/kuzov.jpg" alt="">
+            <div class="image-container"></div>
+            <div class="service-centr-text1 scroll-item">
+              <h2 class="text-service">
+                Кузовной сервис - производит замену кабин на грузовых и
+                коммерческих автомобилях, восстанавливаем геометрии кузовов и
+                кабин, выполняем покрасочные работы
+              </h2>
+            </div>
+          </div>
+
+          <div class="service-content">
+            <div class="section-wrapper">
+              <div class="service-item-row kuzov-row1">
+                <div class="service-item-column">
+                  <div class="service-column-image scroll-itemimages">
+                    <img src="./img/Group 47.jpg" alt="leftimage" />
+                  </div>
+                </div>
+                <div class="service-item-column lastof">
+                  <div class="animaright scroll-itemdescr">
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr kuzov-descr">
+                        Кузовные и малярные работы выполняются с помощью
+                        соответствующего оборудования -
+                        <span class="bolderWeichai">стапель системы JOSAM</span>
+                        и две покрасочные камеры
+                        <span class="bolderWeichai">Termomeccanica 4</span>
+                        для коммерческого и грузовного автотранспорта
+                      </h4>
+                    </div>
+
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr kuzov-descr">
+                        Выполняем кузовной ремонт прицепов и полуприцепов.
+                        Предоставляем услуги по замене, установке и ремонту всех
+                        видов автомобильных и стекол на любые автомобили и
+                        спецтехнику
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="service-item-row">
+                <div class="service-item-column firstof">
+                  <div class="anima-wrapper scroll-itemdescr">
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr kuzov-descr">
+                        С нами сотрудничают основные страховые организации, ведь
+                        мы проводим все виды ремонтных и кузовных работ
+                      </h4>
+                    </div>
+                    <div class="service-column-text">
+                      <h4 class="clients-item-descr kuzov-descr">
+                        Мощность кузовного участка составляет 8 кузовных
+                        машино-мест - 4 для коммерческих, 4 для грузовых
+                        автомобилей, а также 4 малярных подготовительных
+                        машино-места. Средняя пропускная способность составляеет
+                        45-50 единиц автотехники в месяц
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-item-column">
+                  <div class="service-column-image scroll-itemimages">
+                    <img src="./img/tools1.jpg" alt="rightimage" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="service-centr-cena">
+            <div class="section-wrapper">
+              <div class="cena-item header-cena scroll-item">
+                <h2 class="cena-item-main cenatablink">Цены</h2>
+                <h3 class="cena-item-descr">
+                  Отпускная цена с налогом на добавленную стоимость по ставке
+                  20%, руб
+                </h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Техническое обслуживание и ремонт автомобилей импортного
+                  производства
+                </h3>
+                <h3 class="cena-item-kolvo">нормо-час</h3>
+                <h3 class="cena-item-summ">59.40</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Техническое обслуживание и ремонт грузовой и пассажирской
+                  техники МАЗ
+                </h3>
+                <h3 class="cena-item-kolvo">нормо-час</h3>
+                <h3 class="cena-item-summ">54.00</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Техническое обслуживание и текущий ремонт прицепов и
+                  полуприцепов
+                </h3>
+                <h3 class="cena-item-kolvo">нормо-час</h3>
+                <h3 class="cena-item-summ">54.00</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Техническое обслуживание и ремонт топливной аппаратуры
+                </h3>
+                <h3 class="cena-item-kolvo">нормо-час</h3>
+                <h3 class="cena-item-summ">54.00</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content">
+                  Стоимость 1 км при выезде автомобиля для оказания технической
+                  помощи
+                </h3>
+                <h3 class="cena-item-kolvo">1 км</h3>
+                <h3 class="cena-item-summ">0.70</h3>
+              </div>
+              <div class="cena-item scroll-item">
+                <h3 class="cena-item-content content-before">
+                  если иное не предусмотрено договорами с заказчиками
+                </h3>
+              </div>
+            </div>
+          </div>
+          <section class="section-5">
+            <div class="section-wrapper">
+              <div class="section-5__item">
+                <div class="section-5-image scroll-itemimages">
+                  <img src="./img/Group74.jpg" alt="logo 2" />
+                </div>
+              </div>
+              <div class="section-5__item">
+                <div class="section-5-descr scroll-itemdescr">
+                  <h4 class="clients-item-descr">
+                    <span class="bolderWeichai">На складе</span> нашего
+                    сервисного центра имеются
+                    <span class="bolderWeichai"
+                      >в наличии сертифицированные запасные части,</span
+                    >
+                    моторные и трансмиссионные масла, а также прочие смазочные
+                    материалы и технические жидкости для оперативного проведения
+                    технического обслуживания и ремонта. В случае отсутствия на
+                    складе, возможна оперативная доставка запасной части в
+                    течении
+                    <span class="bolderWeichai fontsimple">2-3</span> часов с
+                    установкой (заменой) в день проведения ремонта
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <section class="section-6">
+        <div class="section-wrapper">
+          <div class="section-6__item">
+            <div class="section-6__item-content first-item">
+              <h3 class="section-6__itemheader upper">Контактная информация</h3>
+              <h4 class="section-6__itemheader-info smallwidth">
+                г.Минск, Республика Беларусь Партизанский проспект, 178
+              </h4>
+              <h4 class="section-6__itemheader-info">
+                График работы: ПН-ВС 8:00 - 20:00, без выходных
+              </h4>
+            </div>
+            <div class="section-6__item-content second-item">
+              <div class="second-item-items">
+                <h4 class="column-descr">Сервис</h4>
+                <h4 class="column-descr">Запасные части</h4>
+                <h4 class="column-descr">administrator@ate.by</h4>
+              </div>
+              <div class="second-item-items">
+                <h4 class="column-descr numberfont">+375 29 388-65-43</h4>
+                <h4 class="column-descr numberfont">+375 29 689-69-78</h4>
+                <h4 class="column-descr numberfont">+375 29 644-56-51</h4>
+              </div>
+              <div class="second-item-items">
+                <h4 class="column-descr numberfont">+375 29 118-06-60</h4>
+                <h4 class="column-descr numberfont">+375 29 303-33-60</h4>
+              </div>
+            </div>
+            <div class="section-6__item-content third-item">
+              <h4 class="column-descr upper">Авторизованный центр МАЗ</h4>
+              <h4 class="column-descr numberfont centercorrect">+375 17 374-56-52</h4>
+              <h4 class="column-descr"><span>E-mail:</span>  maz@ate.by</h4>
+            </div>
+            <div class="section-6__item-content fourth-item">
+              <div class="fourth-item-items a">
+                <h4 class="column-descr upper">
+                  Сервисный центр грузовых автомобилей
+                </h4>
+              </div>
+              <div class="fourth-item-items">
+                <h4 class="column-descr numberfont">+375 17 392-50-81</h4>
+              </div>
+              <div class="fourth-item-items">
+                <h4 class="column-descr numberfont">+375 29 399-37-61</h4>
+              </div>
+              <div class="fourth-item-items">
+                <h4 class="column-descr"><span>E-mail:</span> mercedes-benz@ate.by</h4>
+              </div>
+            </div>
+            <div class="section-6__item-content five-item">
+              <h4 class="column-descr upper">
+                Авторизованный дизель центр bosch
+              </h4>
+              <h4 class="column-descr numberfont">+375 44 711-67-49</h4>
+              <h4 class="column-descr"><span>E-mail:</span> bosch@ate.by</h4>
+              
+            </div>
+          </div>
+          <div class="section-6__item item-map">
+            
+            <div id="map" class="map">
+           </div>
+        </div>
+      </section>
+      <footer class="footer-content">
+        <div class="section-wrapper">
+          <div class="footer-text">
+            <h4 class="footer-text-descr">ООО “Автотехинжиниринг плюс”</h4>
+            <h4 class="footer-text-descr">УНП 193654867</h4>
+            <h4 class="footer-text-descr">
+              220075, Республика Беларусь, г. Минск, пр-т Партизанский,
+              178-101/а
+            </h4>
+            <h4 class="footer-text-descr">
+              Контакты: +375 17 379-56-51, +375 29 644-56-51
+            </h4>
+            <h4 class="footer-text-descr">E-mail: info@ate.by</h4>
+            <h4 class="footer-text-descr">
+              р/с BY38BLNB30120000602284000933, БИК BLNBBY2X в ОАО “БНБ-Банк”
+              г.Минск, пр-т Независимостиб 173, 18 этаж
+            </h4>
+          </div>
+        </div>
+        
+      </footer>
+    
+    </div>
+    <div class="mobile-container">
+      <header class="header-container">
+        <div class="header-item left-item">
+          <img src="./img/mobile/logo.png" alt="">
+        </div>
+        <div class="header-item center-item selectmobile" data-tab="tab-10">
+          <img src="./img/mobile/TIR service.png" alt="">
+        </div>
+        <div class="header-item right-item">
+          <img src="./img/mobile/burger.png" alt="" class="burgerMenu">
+        </div>
+        <div class="nav">
+          <div class="nav-item">
+            <h4 class="nav-item-link selectmobile link1" data-tab="tab-11">Авторизованнный центр МАЗ</h4>
+          </div>
+          <div class="nav-item">
+            <h4 class="nav-item-link selectmobile " data-tab="tab-12">Сервисный центр грузовых автомобилей</h4>
+          </div>
+          <div class="nav-item">
+            <h4 class="nav-item-link selectmobile" data-tab="tab-13">Дизель центр</h4>
+          </div>
+          <div class="nav-item">
+            <h4 class="nav-item-link selectmobile link2" data-tab="tab-14">Кузовной сервис</h4>
+          </div>
+          <div class="nav-item">
+            <h4 class="nav-item-link  cenatabmobile" data-goto="cenatablink">Цены</h4>
+          </div>
+        </div>
+      </header>
+      <div class="content-section-mobile">
+        <div class="content-mobi-main content active" id="tab-10">
+          <section class="section-1-mobile">
+            <img src="./img/mobile/Group 100.jpg" alt="headlogo" />
+            <div class="header-info-mobile">
+             
+              <div class="header__text-mobile">
+                <div class="header__text-main">
+                  <h1 class="header__text-main-class-mobile">
+                    Техническое обслуживание <br>и ремонт грузовых автомобилей
+                  </h1>
+                   </div>
+              </div>
+            </div>
+            <div class="header__text-footer-mobile">
+              <h3 class="header__text-main-second header-footer-text-mobile">
+                ООО “Автотехинжиниринг плюс”
+              </h3>
+            </div>
+          </section>
+          <section class="section-2">
+              <div class="section-2__leftside">
+                <h4 class="section-2-text">Преимущества официального сервиса</h4>      
+             </div>
+          </section>
+        <section class="prof-mobile">
+          <div class="prof-container">
+            <div class="prof-item scroll-item">
+              <h3 class="section__item-header-mobile">Профессиональное обслуживание</h3>
+              <h4 class="section__item-descr-mobile">
+                Вы получаете профессиональную диагностику с поддержкой
+                завода-изготовителя. Наши специалисты знают грузовые автомобили
+                лучше, чем любая СТО, ведь наш опыт работы более 20 лет
+              </h4>
+            </div>
+            <div class="prof-item scroll-item">
+              <h3 class="section__item-header-mobile">Удобное месторасположение</h3>
+              <h4 class="section__item-descr-mobile">
+                Мы создали комфортные условия обслуживания. Наш сервис
+                располагается в городе недалеко от МКАД в удобном для подъезда
+                коммерческого автотранспорта месте
+              </h4>
+            </div>
+            <div class="prof-item scroll-item-mobile">
+              <h3 class="section__item-header-mobile">Гарантия</h3>
+              <h4 class="section__item-descr-mobile pad">
+                Мы несем полную отвественность за выполненные работы нашими
+                специалистами и ручаемся за качество запасных частей
+              </h4>
+            </div>
+          </div>
+        </section>
+        <div class="service-centr-cena-mobile">
+         
+            <div class="cena-item-mobile header-cena-mobile">
+              <h2 class="cena-item-main-mobile cenatablinkmain">Цены</h2>
+              <h3 class="cena-item-descr-mobile">
+                Отпускная цена с налогом на добавленную стоимость по ставке
+                20%, руб
+              </h3>
+            </div>
+            <div class="cena-item-mobile ">
+              <h3 class="cena-item-content-mobile">
+                Техническое обслуживание и ремонт автомобилей импортного
+                производства
+              </h3>
+              <div class="wrap-cena">
+                <h3 class="cena-item-summ-mobile">59.40</h3>
+                <h3 class="cena-item-kolvo-mobile">нормо-час</h3>
+              </div>
+              
+            </div>
+            <div class="cena-item-mobile ">
+              <h3 class="cena-item-content-mobile">
+                Техническое обслуживание и ремонт грузовой и пассажирской
+                техники МАЗ
+              </h3>
+              <div class="wrap-cena">
+                <h3 class="cena-item-summ-mobile">54.00</h3>
+                <h3 class="cena-item-kolvo-mobile">нормо-час</h3>
+              </div>
+              
+            </div>
+            <div class="cena-item-mobile ">
+              <h3 class="cena-item-content-mobile">
+                Техническое обслуживание и текущий ремонт прицепов и
+                полуприцепов
+              </h3>
+              <div class="wrap-cena">
+                <h3 class="cena-item-summ-mobile">54.00</h3>
+                <h3 class="cena-item-kolvo-mobile">нормо-час</h3>
+              </div>
+              
+            </div>
+            <div class="cena-item-mobile">
+              <h3 class="cena-item-content-mobile">
+                Техническое обслуживание и ремонт топливной аппаратуры
+              </h3>
+              <div class="wrap-cena">
+                <h3 class="cena-item-summ-mobile">54.00</h3>
+                <h3 class="cena-item-kolvo-mobile">нормо-час</h3>
+              </div>
+              
+            </div>
+            <div class="cena-item-mobile">
+              <h3 class="cena-item-content-mobile">
+                Стоимость 1 км при выезде автомобиля для оказания технической
+                помощи
+              </h3>
+              <div class="wrap-cena">
+                <h3 class="cena-item-summ-mobile">0.70</h3>
+                <h3 class="cena-item-kolvo-mobile">1 км</h3>
+              </div>
+              
+            </div>
+            <div class="cena-item-mobile">
+              <h3 class="cena-item-content-mobile content-before content-before-mobile">
+                если иное не предусмотрено договорами с заказчиками
+              </h3>
+            </div>
+          
+        </div>
+<section class="section-1-mobile image-secti">
+<img src="./img/mobile/abstract-blur-furniture1.jpg" alt="">
+</section>
+<div class="text-upper scroll-item">
+  <h4 class="clients-item-descr">
+    <span class="bolderWeichai">На складе</span> нашего
+    сервисного центра имеются
+    <span class="bolderWeichai">в наличии сертифицированные запасные части,</span>
+    моторные и трансмиссионные масла, а также прочие смазочные
+    материалы и технические жидкости для оперативного проведения
+    технического обслуживания и ремонта. В случае отсутствия на
+    складе, возможна оперативная доставка запасной части в
+    течении
+    <span class="bolderWeichai fontsimple">2-3</span> часов с
+    установкой (заменой) в день проведения ремонта
+  </h4>
+</div>
+
+        </div>
+        <div class="content-centrmaz content" id="tab-11">
+          <section class="section-1-mobile">
+            <img src="./img/mobile/Group 102.jpg" alt="headlogo" />
+            <div class="header-info-mobile">
+          <div class="header__text-mobile">
+                <div class="header__text-main">
+                  <h1 class="header__text-main-class-mobile">
+                    Авторизованный центр МАЗ
+                  </h1>
+                   </div>
+              </div>
+            </div>
+         </section>
+         <section class="section-maz-mobile">
+          <div class="mobile-wrapper">
+            <div class="maz-content ">
+              <div class="maz-content-item">
+                <img src="./img/mobile/logomaz.png" alt="logo" class="logo-mobile-maz">
+              </div>
+              <div class="maz-content-item">
+                <h4 class="maz-content-descr">Авторизованный сервисный центр обеспечивает гарантийное и сервисное обслуживание всей линейки выпускаемой автомобильной продукции МАЗ</h4>
+              </div>
+            </div>
+          </div>
+         </section>
+         <div class="section-maz-opisanie">
+          <div class="mobile-wrapper">
+            <h4 class="maz-opisanie-descr">Специалисты нашего Сервисного центра оказывают техническую и консультационную поддержку потребителей и клиентов на всех этапах эксплуатации автомобилей МАЗ</h4>
+          </div>
+         </div>
+         <section class="images-mobile-section">
+            <div class="mobile-wrapper">
+              <div class="images-container">
+                <div class="image-mobileitem im1 scroll-item-mobile">
+                  <h4 class="image-descr-up">Техническое обслуживание</h4>
+                </div>
+                <div class="image-mobileitem im2 scroll-item-mobile">
+                  <h4 class="image-descr-up">Ремонт</h4>
+                </div>
+                <div class="image-mobileitem im3 scroll-item-mobile">
+                  <h4 class="image-descr-up">Диагностка</h4>
+                 </div>
+                   <div class="image-mobileitem im4 scroll-item-mobile">
+                  <h4 class="image-descr-up">Гарантия</h4>
+                </div>
+                 </div>
+            </div>
+         </section>
+         <div class="section-maz-opisanie border-mobile">
+          <div class="mobile-wrapper">
+            <h4 class="maz-opisanie-descrbig">На основании договорных отношений мы авторизованы по сервису<br> силовых агрегатов:</h4>
+          </div>
+         </div>
+         <section class="section-with-weichei">
+          <div class="mobile-wrapper">
+            <div class="clients-item">
+              <h2 class="clients-item-title colorcenter">
+                ПАО “Автодизель” ЯМЗ
+              </h2>
+              <h4 class="clients-item-descr">
+                Сервисный центр по обслуживанию и ремонту продукции ПАО
+                “Автодизель” ЯМЗ в гарантийный и послегарантийный период
+                эксплуатации
+              </h4>
+            </div>
+            <div class="clients-item">
+              <h2 class="clients-item-title colorcenter">
+                Минский моторный завод
+              </h2>
+              <h4 class="clients-item-descr rig95">
+                Предприятие фирменного сервиса двигателей ОАО “Управляющая
+                компания холдинга” Минский моторный завод в гарантийный и
+                послегарантийный период эксплуатации
+              </h4>
+            </div>
+            <div class="clients-item">
+              <h2 class="clients-item-title canadafont">Weichai Power</h2>
+              <h4 class="clients-item-descr rig84">
+                Авторизованный сервисный центр по техническому обслуживанию и
+                ремонту двигателей
+                <span class="bolderWeichai">Weichai Power</span> в составе
+                автотехники МАЗ
+              </h4>
+            </div>
+          </div>
+         </section>
+       </div>
+       <div class="content-gruz-avto content" id="tab-12">
+        <section class="section-1-mobile">
+          <img src="./img/mobile/gruz1.jpg" alt="headlogo" />
+          <div class="header-info-mobile">
+        <div class="header__text-mobile">
+              <div class="header__text-main">
+                <h1 class="header__text-main-class-mobile">
+                  Сервисный центр грузовых автомобилей
+                </h1>
+                 </div>
+            </div>
+          </div>
+       </section>
+       <div class="section-maz-opisanie">
+        <div class="mobile-wrapper">
+          <h4 class="maz-opisanie-descr gruz-dop">Наш Сервисный центр включает в себя подразделения технического обслуживания и ремонта большегрузных и коммерческих автомобилей зарубежного производства</h4>
+         <div class="opis-image">
+          <img src="./img/mobile/IMG_95041.jpg" alt="">
+         </div>
+        </div>
+       </div>
+       <section class="why-us">
+        <div class="mobile-wrapper">
+          <div class="why-us-content">
+            <div class="why-us-title">
+              <h3 class="why-us-title-text">Почему стоит выбрать нас?</h3>
+            </div>
+            <div class="why-us-item scroll-item-mobile">
+              <h4 class="why-us-descr">Точная диагностика происходит на лицензионном диагностическом оборудовании и оригинальной сервисной программе</h4>
+            </div>
+            <div class="why-us-item scroll-item-mobile">
+              <h4 class="why-us-descr">Большой ассортимент необходимых автозапчастей позволяет форсировать процесс работы, не прибегая к простоям из-за ожидания заказа деталей</h4>
+            </div>
+            <div class="why-us-item scroll-item-mobile">
+              <h4 class="why-us-descr">Наше рабочее пространство дает возможность сразу приступить к работе в день приема</h4>
+            </div>
+          </div>
+        </div>
+       </section>
+             <div class="after-why-us">
+                 <div class="h3-container">
+                  <h3 class="why-us-title-text">Ремонт прицепов и полуприцепов</h3>
+                </div>
+            </div>
+            <section class="rem-section">
+              <div class="mobile-wrapper">
+                <div class="rem-section-item scroll-item-mobile upscrolling">
+                  <img src="./img/mobile/P1019151-12.jpg" alt="">
+                </div>
+                <div class="rem-section-item downscroll scroll-item-mobile">
+                  <div class="service-column-text">
+                    <h4 class="clients-item-descr">
+                      Мы предлагаем квалифицированное техническое обслуживание
+                      и ремонт прицепной автомобильной техники любой
+                      размеренности и назначения, отечественного и импортного
+                      производства
+                    </h4>
+                  </div>
+                  <div class="service-column-text">
+                    <h4 class="clients-item-descr">
+                      Мы авторизированы как Сервисный центр по прицепам и
+                      полуприцепам белорусского производства
+                      <span class="bolderWeichai"
+                        >МАЗ, "Купава", "Волат", БелАЗ,</span
+                      >
+                      Большой опыт сервисного обслуживания и ремонта
+                      полуприцепов
+                      <span class="bolderWeichai"
+                        >Kogel, Schmitz, Wielton, Krone,</span
+                      >
+                      тормозных механизмов
+                      <span class="bolderWeichai">WABCO</span> и
+                      <span class="bolderWeiachai">Knorr Bremse,</span> осей
+                      <span class="bolderWeichai">SAF</span> и
+                      <span class="bolderWeichai">BPW</span>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </section>
+       </div>
+       <div class="content-dizel-service content" id="tab-13">
+        <section class="section-1-mobile">
+          <img src="./img/mobile/dizel.jpg" alt="headlogo" />
+          <div class="header-info-mobile">
+        <div class="header__text-mobile">
+              <div class="header__text-main">
+                <h1 class="header__text-main-class-mobile">
+                  Сервис систем дизельного<br> впрыска
+                </h1>
+                 </div>
+            </div>
+          </div>
+       </section>
+       <div class="section-maz-opisanie dizel-maz-opisani">
+        <div class="mobile-wrapper">
+          <h4 class="maz-opisanie-descr gruz-dop">Дизель Центр - сервис систем дизельного впрыска, диагностика и обслуживание дизельных легковых и грузовых автомобилей. Мы используем уникальное, сертифицированное производителем оборудованиие и инновационные технологии</h4>
+         <div class="opis-image">
+          <img src="./img/mobile/remont1.jpg" alt="">
+         </div>
+        </div>
+       </div>
+       <section class="prof-mobile dizel-prof-mobile">
+        <div class="prof-container">
+          <div class="prof-item scroll-item-mobile">
+            <h3 class="section__item-header-mobile">Диагностика систем управления дизельных двигателей</h3>
+            <h4 class="section__item-descr-mobile">
+              с использованием KTS, снятие/установка, проверка и замена компонентов систем дизельного впрыска: топливные насосы высокого давления, распылители, насос-форсунки, индивидуальные насосы, инжекторы и насосы высокого давления системы “Common Rail”
+            </h4>
+          </div>
+          <div class="prof-item scroll-item-mobile">
+            <h3 class="section__item-header-mobile">Проверка и ремонт компонентов систем дизельного впрыск</h3>
+            <h4 class="section__item-descr-mobile">
+              топливные насосы высокого давления, распылители, насос-форсунки, индивидуальные насосы, инжекторы и насосы высокого давления системы Common Rail на испытательном оборудовании с ипользованием специального инструмента
+            </h4>
+          </div>
+          <div class="prof-item scroll-item-mobile">
+            <h3 class="section__item-header-mobile">Проверка и ремонт компонентов систем дизельного впрыска</h3>
+            <h4 class="section__item-descr-mobile pad">
+              топливные насосы высокого давления, распылители, насос-форсунки, индивидуальные насосы, инжекторы и насосы высокого давления системы Common Rail на испытательном оборудовании с ипользованием специального инструмента
+            </h4>
+          </div>
+          <div class="prof-item scroll-item-mobile">
+            <h3 class="section__item-header-mobile">Диагностика и обслуживание дизельных двигателей</h3>
+            <h4 class="section__item-descr-mobile pad">
+              оказываются с использованием современных технологий, программного обеспечения и специальных знаний наших сотрудников, полученных и подтвержденных в учебном центре
+            </h4>
+          </div>
+        </div>
+       </section>
+       <div class="service-centr-cena-mobile dizel-cena-mobile">
+         
+        <div class="cena-item-mobile header-cena-mobile">
+          <h2 class="cena-item-main-mobile cenatablink">Цены</h2>
+          <h3 class="cena-item-descr-mobile">
+            Отпускная цена с налогом на добавленную стоимость по ставке
+            20%, руб
+          </h3>
+        </div>
+        <div class="cena-item-mobile dizel-cena-item-mobile">
+          <h3 class="cena-item-content-mobile">
+            Техническое обслуживание и ремонт автомобилей, агрегатов и специальной техники
+          </h3>
+          <div class="wrap-cena">
+            <h3 class="cena-item-summ-mobile">60.00</h3>
+            <h3 class="cena-item-kolvo-mobile">нормо-час</h3>
+          </div>
+          
+        </div>
+       </div>
+     </div>
+       <div class="kuzov-service-mobile content" id="tab-14">
+        <section class="section-1-mobile">
+          <img src="./img/mobile/kuzovservice.jpg" alt="headlogo" />
+          <div class="header-info-mobile">
+        <div class="header__text-mobile">
+              <div class="header__text-main">
+                <h1 class="header__text-main-class-mobile">
+                  Кузовной сервис
+                </h1>
+                 </div>
+            </div>
+          </div>
+       </section>
+       <div class="section-maz-opisanie kuzov-service-opisanie">
+        <div class="mobile-wrapper">
+          <h4 class="maz-opisanie-descr gruz-dop">Кузовной сервис - производит замену кабин на грузовых и коммерческих автомобилях, восстанавливаем геометрии кузовов и кабин, выполняем покрасочные работы</h4>
+        </div>
+       </div>
+       <section class="rem-section">
+        <div class="mobile-wrapper">
+          <div class="rem-section-item upscrollingjs">
+            <img src="./img/mobile/1.jpg" alt="">
+          </div>
+          <div class="rem-section-item downscrolljs">
+            <div class="service-column-text">
+              <h4 class="clients-item-descr">
+                Кузовные и малярные работы выполняются с помощью соответствующего оборудования -
+                <span class="bolderWeichai"
+                  >стапель системы JOSAM</span
+                >
+                две покрасочные камеры
+                <span class="bolderWeichai"
+                  >Termomeccanica 4</span
+                >
+                для коммерческого и грузовного автотранспорта
+               </h4>
+            </div>
+            <div class="service-column-text">
+              <h4 class="clients-item-descr">
+                Выполняем кузовной ремонт прицепов и полуприцепов.
+                Предоставляем услуги по замене, установке и ремонту всех
+                видов автомобильных и стекол на любые автомобили и
+                спецтехнику
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="rem-section">
+        <div class="mobile-wrapper">
+          <div class="rem-section-item scroll-item-mobile upscrolling">
+            <img src="./img/mobile/man1.jpg" alt="">
+          </div>
+          <div class="rem-section-item downscroll scroll-item">
+            <div class="service-column-text">
+              <h4 class="clients-item-descr">
+                С нами сотрудничают основные страховые организации, ведь мы проводим все виды ремонтных и кузовных работ
+               </h4>
+            </div>
+            <div class="service-column-text">
+              <h4 class="clients-item-descr">
+                Мощность кузовного участка составляет 8 кузовных
+                машино-мест - 4 для коммерческих, 4 для грузовых
+                автомобилей, а также 4 малярных подготовительных
+                машино-места. Средняя пропускная способность составляеет
+                45-50 единиц автотехники в месяц
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+       </div>
+        <div class="item-map-mobile">
+          <div id="mapmobile" class="mapmobile">
+         </div>
+      </div>        
+     </div>
+      <section class="section-6-mobile">
+        <div class="mobile-wrapper">
+          <div class="section-6__item-mobile">
+            <div class="section-6__item-content first-item">
+              <h3 class="section-6__itemheaderr">Контактная информация</h3>
+              <h4 class="section-6__itemheader-info smallwidth">
+                г.Минск, Республика Беларусь Партизанский проспект, 178
+              </h4>
+              <h4 class="section-6__itemheader-info smaller">
+                График работы: ПН-ВС 8:00 - 20:00, без выходных
+              </h4>
+            </div>
+            <div class="section-6__item-content second-item">
+              <div class="second-item-items">
+                <h4 class="column-descr">Сервис</h4>
+                <h4 class="column-descr">Запасные части</h4>
+              </div>
+              <div class="second-item-items">
+                <h4 class="column-descr numberfont">+375 29 388-65-43</h4>
+                <h4 class="column-descr numberfont">+375 29 689-69-78</h4>
+                
+              </div>
+              <div class="second-item-items">
+                <h4 class="column-descr numberfont">+375 29 118-06-60</h4>
+                <h4 class="column-descr numberfont">+375 29 303-33-60</h4>
+              </div>
+              <h4 class="column-descr em">E-mail:administrator@ate.by</h4>
+            </div>
+            <div class="section-6__item-content third-item">
+              <h4 class="column-descr upper">Авторизованный центр МАЗ</h4>
+              <h4 class="column-descr numberfont n12">+375 17 374-56-52</h4>
+              <h4 class="column-descr ma">E-mail: maz@ate.by</h4>
+            </div>
+            <div class="section-6__item-content five-item">
+              <h4 class="column-descr upper">
+                Авторизованный дизель центр bosch
+              </h4>
+              <h4 class="column-descr numberfont n12">+375 44 711-67-49</h4>
+              <h4 class="column-descr ma">E-mail: bosch@ate.by</h4>
+            </div>
+            <div class="section-6__item-content fourth-item">
+              <div class="fourth-item-items a">
+                <h4 class="column-descr upper">
+                  Сервисный центр грузовых автомобилей
+                </h4>
+              </div>
+              <div class="fourth-item-items">
+                <h4 class="column-descr numberfont n12">+375 17 392-50-81</h4>
+              </div>
+              <div class="fourth-item-items">
+                <h4 class="column-descr numberfont n12">+375 29 399-37-61</h4>
+              </div>
+              <div class="fourth-item-items">
+                <h4 class="column-descr ma">E-mail: mercedes-benz@ate.by</h4>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+         
+     </section>
+      <footer class="footer-content">
+        <div class="mobile-wrapper">
+          <div class="section-wrapper">
+            <div class="footer-text">
+              <h4 class="footer-text-descr">ООО “Автотехинжиниринг плюс”</h4>
+              <h4 class="footer-text-descr">УНП 193654867</h4>
+              <h4 class="footer-text-descr">
+                220075, Республика Беларусь, г. Минск, пр-т Партизанский,
+                178-101/а
+              </h4>
+              <h4 class="footer-text-descr">
+                Контакты: +375 17 379-56-51, +375 29 644-56-51
+              </h4>
+              <h4 class="footer-text-descr">E-mail: info@ate.by</h4>
+              <h4 class="footer-text-descr">
+                р/с BY38BLNB30120000602284000933, БИК BLNBBY2X в ОАО “БНБ-Банк”
+                г.Минск, пр-т Независимостиб 173, 18 этаж
+              </h4>
+            </div>
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+  </body>
+</html>
