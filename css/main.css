@@ -1187,6 +1187,9 @@ body {
   .kuzov-descr {
    font-size: 32px;
 }
+  .service-content .section-wrapper {
+       width: 1600px;
+    }
 }
 /*-------------------------adaptive---------*/
 @media (max-width: 1600px) {
