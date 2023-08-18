@@ -152,8 +152,9 @@ body {
   font-size: calc(1vw + 1vh + 0.7vmin);
   font-weight: 600;
   line-height: 38.5px;
-  opacity: 0.5;
+  opacity: 0.8;
   min-height: 77px;
+  color: #797975;
   margin-bottom: 10px;
 }
 .section__item-descr {
