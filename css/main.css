@@ -1152,38 +1152,7 @@ body {
   height: 2000px;
   bottom: -30%;
 }
-
-/*-------------------------adaptive---------*/
-@media (max-width: 1600px) {
-  .section-2 .section-wrapper {
-    width: 95%;
-  }
-  .section-3 .section-wrapper {
-    width: 95%;
-    flex-wrap: wrap;
-  }
-  .section-4 .section-wrapper {
-    width: 95%;
-  }
-  .service-content .section-wrapper {
-    width: 95%;
-  }
-  .service-centr-cena .section-wrapper {
-    width: 95%;
-  }
-  .section-5 .section-wrapper,
-  .section-wrapper,
-  .service-centr-clients .section-wrapper,
-  .dizel-content .section-wrapper {
-    width: 95%;
-  }
-  .section-6 .section-wrapper {
-    width: 97%;
-  }
-  .section-6__item {
-    flex: 1;
-  }
-  @media (min-width:1800px) and (max-width:1920px){
+@media (min-width:1800px) and (max-width:1920px){
   .section__item-descr {
   font-size: 30px;
   }
@@ -1219,6 +1188,37 @@ body {
    font-size: 32px;
 }
 }
+/*-------------------------adaptive---------*/
+@media (max-width: 1600px) {
+  .section-2 .section-wrapper {
+    width: 95%;
+  }
+  .section-3 .section-wrapper {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .section-4 .section-wrapper {
+    width: 95%;
+  }
+  .service-content .section-wrapper {
+    width: 95%;
+  }
+  .service-centr-cena .section-wrapper {
+    width: 95%;
+  }
+  .section-5 .section-wrapper,
+  .section-wrapper,
+  .service-centr-clients .section-wrapper,
+  .dizel-content .section-wrapper {
+    width: 95%;
+  }
+  .section-6 .section-wrapper {
+    width: 97%;
+  }
+  .section-6__item {
+    flex: 1;
+  }
+  
   .footer-content .section-wrapper {
     width: 97%;
   }
