@@ -192,6 +192,9 @@ body {
   .section-2 .section-wrapper {
     width: 1591px;
   }
+  .section__item-header {
+    font-size: 38px;
+  }
 }
 .section-4 {
   border-top: 1px solid #797975;
