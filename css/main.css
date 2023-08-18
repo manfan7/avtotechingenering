@@ -162,6 +162,11 @@ body {
   font-weight: 400;
   opacity: 0.5;
 }
+@media (min-width:1800px) and (max-width:1920px){
+  .section__item-descr {
+  font-size: 30px;
+  }
+}
 .section-4 {
   border-top: 1px solid #797975;
   border-bottom: 1px solid #797975;
