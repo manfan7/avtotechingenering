@@ -893,7 +893,7 @@ body {
   position: relative;
 }
 .service-content::before {
-  content: "";
+  content: none;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1142,6 +1142,7 @@ body {
   margin-bottom: 60px;
 }
 .kuzov-centr .service-content::before {
+  content: '';
   background-image: url(../img/5132609-05.png);
   height: 2000px;
   bottom: -30%;
