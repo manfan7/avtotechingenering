@@ -1190,6 +1190,10 @@ body {
   .service-content .section-wrapper {
        width: 1600px;
     }
+  .service-column-text {
+    width: 97%;
+    
+}
 }
 /*-------------------------adaptive---------*/
 @media (max-width: 1600px) {
