@@ -2373,6 +2373,7 @@ body {
     margin-top: 0px;
     margin-bottom: -8px;
     -webkit-text-stroke: 0.2px;
+    width: 97%;
   }
   .clients-item {
     flex: auto;
