@@ -195,6 +195,9 @@ body {
   .section__item-header {
     font-size: 38px;
   }
+  .kuzov-descr {
+   font-size: 32px;
+}
 }
 .section-4 {
   border-top: 1px solid #797975;
