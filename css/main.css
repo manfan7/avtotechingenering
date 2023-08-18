@@ -1013,7 +1013,7 @@ body {
   content: none;
 }
 .animaright .service-column-text {
-  width: 95%;
+  width: 100%;
 }
 .service .section-5::after {
   content: none;
