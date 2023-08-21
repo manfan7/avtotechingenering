@@ -188,7 +188,7 @@ body {
   padding-right: 10px;
 }
 .section-4__item:last-child {
-  text-align: end;
+  /* text-align: end; */
   flex: 1;
 }
 .section-4__selector {
