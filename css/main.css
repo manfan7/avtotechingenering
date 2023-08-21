@@ -178,7 +178,7 @@ body {
 }
 .section-4__item:hover {
   box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.3);
-  perspective: 20px;
+  perspective: -2000px;
 }
 /* .section-4__item:not(:last-child) {
   margin-right: -31px;
@@ -1324,7 +1324,10 @@ body {
 }
 @media (max-width: 1402px) {
   .animaright {
-    padding-left: 5px;
+    padding-left: 20px;
+  }
+  .dizel-content-item:first-child {
+    gap: 5px;
   }
 }
 
