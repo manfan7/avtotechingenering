@@ -92,8 +92,11 @@ topage.forEach((item) => {
     } else if (item.classList.contains("link2")) {
       setTimeout(function () {
         upscrolljs.classList.add("animation-class");
-        downscrolljs.classList.add("animation-class");
+        /* downscrolljs.classList.add("animation-class"); */
       }, 300);
+      window.addEventListener("scroll", () => {
+        scrollAnimation9(scrollItemsMobileKuzov);
+      });
     } else {
       animationImage.classList.remove("scroll-itemanimation");
       animationText.classList.remove("scroll-itemanimationdescr");

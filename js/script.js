@@ -73,6 +73,9 @@ gsap.fromTo(
 /*---------scroll-------------------*/
 const scrollItems = document.querySelectorAll(".scroll-item");
 const scrollItemsMobile = document.querySelectorAll(".scroll-item-mobile");
+const scrollItemsMobileKuzov = document.querySelectorAll(
+  ".scroll-item-mobile-kuzov"
+);
 const scrollItemsimages = document.querySelectorAll(".scroll-itemimages");
 const scrollItemsdescr = document.querySelectorAll(".scroll-itemdescr");
 const scrollAnimation = (selector) => {
@@ -80,7 +83,7 @@ const scrollAnimation = (selector) => {
   scrollItems.forEach((el) => {
     let blockPosition = el.getBoundingClientRect().top;
 
-    if (blockPosition < windowHeight - 50) {
+    if (blockPosition < windowHeight - 45) {
       el.classList.add("animation-class");
     } else {
       el.classList.remove("animation-class");
@@ -111,6 +114,18 @@ const scrollAnimation3 = (selector) => {
     }
   });
 };
+const scrollAnimation9 = (selector) => {
+  let windowHeight = window.innerHeight;
+  scrollItemsMobileKuzov.forEach((el) => {
+    let blockPosition = el.getBoundingClientRect().top;
+
+    if (blockPosition < windowHeight - 20) {
+      el.classList.add("animation-class");
+    } else {
+      el.classList.remove("animation-class");
+    }
+  });
+};
 const scrollAnimation2 = (selector) => {
   let windowHeight = window.innerHeight;
   scrollItemsdescr.forEach((el) => {
@@ -127,6 +142,7 @@ scrollAnimation(scrollItems);
 scrollAnimation1(scrollItemsimages);
 scrollAnimation2(scrollItemsdescr);
 scrollAnimation3(scrollItemsMobile);
+/* scrollAnimation9(scrollItemsMobileKuzov); */
 window.addEventListener("scroll", () => {
   scrollAnimation(scrollItems);
   scrollAnimation1(scrollItemsimages);
