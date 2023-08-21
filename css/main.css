@@ -1937,6 +1937,9 @@ body {
     position: relative;
   }
   .header-container img {
+    box-shadow: none;
+  }
+  .header-container img {
     width: 100%;
   }
   .burgerMenu {
@@ -1984,6 +1987,9 @@ body {
   .section-1-mobile {
     position: relative;
     margin-bottom: 0px;
+  }
+  .section-1-mobile img {
+    box-shadow: none;
   }
   .header-info-mobile {
     position: absolute;
@@ -2385,7 +2391,9 @@ body {
     align-items: center;
     height: 117px;
   }
-
+  .maz-content img {
+    box-shadow: none;
+  }
   .images-mobile-section {
     display: flex;
     align-items: center;
