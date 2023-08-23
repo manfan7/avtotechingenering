@@ -1119,6 +1119,9 @@ body {
   .dizel-column-descr-descr {
     font-size: 41px;
   }
+  .dizelh3 {
+    font-size: 36px;
+  }
 }
 @media (max-width: 1512px) {
   .dizel-column-descr-descr {
@@ -1154,6 +1157,7 @@ body {
   background-color: #fafafb;
   padding-bottom: 63px;
 }
+
 .dizel-cena-wrapper {
   background-color: #fafafb;
   margin-top: 46px !important;
@@ -1173,6 +1177,20 @@ body {
 }
 .dizel-centr .section-5::after {
   content: none;
+}
+@media (min-width: 1921px) {
+  .dizel-column-descr-descr {
+    font-size: 41px;
+  }
+  .dizelh3 {
+    font-size: 36px;
+  }
+  .cena-item-descr {
+    font-size: 23px;
+  }
+}
+.dizelh4 {
+  font-size: 28px;
 }
 /*----------------------kuzov-service-----------*/
 .imagekuzov {
