@@ -1115,6 +1115,11 @@ body {
   margin-top: -14px;
   /* opacity: 0.8; */
 }
+@media (min-width: 1921px) {
+  .dizel-column-descr-descr {
+    font-size: 41px;
+  }
+}
 @media (max-width: 1512px) {
   .dizel-column-descr-descr {
     font-size: calc(14px + 24 * (100vw / 1920));
