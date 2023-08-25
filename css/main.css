@@ -45,11 +45,12 @@ body {
 }
 .header__logo {
   background-image: url(../img/TIR\ service.png);
-  width: 563px;
-  height: 88px;
+  width: 645px;
+  height: 173px;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 54px;
+  background-size: contain;
+  /*  margin-top: 54px; */
 }
 .header-info {
   display: flex;
@@ -181,6 +182,10 @@ body {
   box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.3);
   perspective: -2000px;
 }
+.section-4__item.active {
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.3);
+  perspective: -2000px;
+}
 /* .section-4__item:not(:last-child) {
   margin-right: -31px;
 } */
@@ -237,11 +242,11 @@ body {
   }
 }
 
-/* .section-4__selector.active {
+.section-4__selector.active {
   font-weight: 900;
   color: black;
   -webkit-text-stroke: 1.5px;
-} */
+}
 
 /* .section-4__selector:after {
   content: "";
@@ -1153,9 +1158,8 @@ body {
 }
 .dizel-centr .service-centr-cena {
   border-top: none;
-  border-bottom: none;
+
   background-color: #fafafb;
-  padding-bottom: 63px;
 }
 
 .dizel-cena-wrapper {
@@ -1191,6 +1195,11 @@ body {
 }
 .dizelh4 {
   font-size: 28px;
+}
+@media (max-width: 1200px) {
+  .dizelh4 {
+    font-size: 26px;
+  }
 }
 /*----------------------kuzov-service-----------*/
 .imagekuzov {
@@ -1289,9 +1298,12 @@ body {
     width: 100%;
   }
   .section-5__item:last-child {
-    width: 70%;
+    width: 87%;
     display: flex;
     align-items: center;
+  }
+  .section-5-descr {
+    width: 96.4%;
   }
   .firstof,
   .lastof {
@@ -1328,10 +1340,14 @@ body {
   .dizel-content .section-3__item {
     height: 650px;
   }
+  .clients-item-descr {
+    line-height: 31.2px;
+  }
 }
 @media (max-width: 1507px) {
   .clients-item-descr {
     font-size: calc(12px + 13 * (100vw / 1920));
+    line-height: 31.2px;
   }
   .kuzov-descr {
     font-size: calc(14px + 13 * (100vw / 1920));
@@ -1481,9 +1497,9 @@ body {
   .service-centr-img {
     height: 620px;
   }
-  .dizel-content .section-3__item {
+  /* .dizel-content .section-3__item {
     height: 64vh;
-  }
+  } */
   .service-centr-logo {
     left: 109px;
   }
@@ -1501,6 +1517,7 @@ body {
   }
   .clients-item-descr {
     margin-top: 0px;
+    line-height: 27.2px;
   }
   .section-2__rightside {
     width: 82px;
@@ -1526,7 +1543,7 @@ body {
     width: 80%;
   }
   .clients-item-descr {
-    line-height: 35.2px;
+    line-height: 27.2px;
   }
   .dizel-column-descr-descr {
     line-height: 40px;
@@ -1675,8 +1692,8 @@ body {
     line-height: 26px;
   }
   .clients-item-descr {
-    line-height: 21.2px;
-    font-size: calc(11px + 9 * (100vw / 1920));
+    line-height: 18.2px;
+    font-size: calc(10px + 9 * (100vw / 1920));
   }
   .dizel-cena-wrapper .cena-item-main {
     margin-left: 0px;
@@ -1685,7 +1702,7 @@ body {
     margin-left: 0px;
   }
   .dizel-content .section-3__item {
-    height: 67vh;
+    height: 76vh;
   }
   .dizelh3 {
     height: 230px;
@@ -1814,7 +1831,7 @@ body {
   }
 
   .cena-item-descr {
-    width: 16%;
+    width: 19%;
   }
   .third-item {
     width: 65%;
@@ -2121,7 +2138,7 @@ body {
   }
   .cena-item-mobile:not(:last-child) {
     border-bottom: 1px solid #797975;
-    gap: 18%;
+    gap: 16%;
     justify-content: space-between;
     align-items: center;
   }
@@ -2167,6 +2184,7 @@ body {
   .wrap-cena {
     min-width: max-content;
     text-align: center;
+    margin-right: 10px;
   }
   .content-before {
     margin-left: 8px;
