@@ -184,10 +184,13 @@ cenaMobile.addEventListener("click", () => {
   console.log(activeCena);
   let main = document.querySelector(".content-mobi-main");
   const maincena = document.querySelector(".cenatablinkmain");
+  const kuzovCena = document.querySelector(".cenatablinkkuzov");
   if (activeTab.classList.contains("content-dizel-service")) {
     detectActiveCena(activeCena);
   } else if (activeTab.classList.contains(main)) {
     detectActiveCena(maincena);
+  } else if (activeTab.classList.contains("kuzov-service-mobile")) {
+    detectActiveCena(kuzovCena);
   } else {
     let content = document.querySelectorAll(".content");
     content.forEach((item) => item.classList.remove("active"));

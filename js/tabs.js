@@ -48,13 +48,18 @@ const tabs = () => {
         title.forEach((element) => {
           element.classList.remove(activeClass);
         });
+        const activeSelectItem = document.querySelectorAll(".section-4__item");
+        activeSelectItem.forEach((item) => {
+          item.classList.remove(activeClass);
+        });
 
         item.classList.add(activeClass);
-
+        if (item.classList.contains(activeClass) && window.innerWidth > 540) {
+          item.closest(".section-4__item").classList.add(activeClass);
+        }
         content.forEach((element) => {
           element.classList.remove(activeClass);
         });
-
         const activeContent = document.querySelector("#" + item.dataset.tab);
         activeContent.classList.add(activeClass);
       })
